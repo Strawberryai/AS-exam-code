@@ -1,0 +1,8 @@
+{"create" : {"_index": "logs", "_id" : "10" } }
+{"id" : "10", "emisor" : "kernel", "fecha" : "2023-01-11T09:41:05", "mensaje": "eth0: renamed from veth56944a9"}
+{"create" : {"_index": "logs", "_id" : "20" } }
+{"id" : "20", "emisor" : "kernel", "fecha" : "2023-01-11T10:02:01", "mensaje": "IPv6: ADDRCONF(NETDEV_CHANGE): veth5f9bdd3: link becomes ready"}
+{"create" : {"_index": "logs", "_id" : "30" } }
+{"id" : "30", "emisor" : "dockerd", "fecha" : "2023-01-11T09:52:43", "mensaje": "No non-localhost DNS nameservers are left in resolv.conf"}
+{"create" : {"_index": "logs", "_id" : "40" } }
+{"id" : "40", "emisor" : "networkd", "fecha" : "2023-01-11T09:41:10", "mensaje": "veth5f9bdd3: Gained IPv6LL"}

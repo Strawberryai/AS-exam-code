@@ -1,5 +1,7 @@
 services:
   webapp:
-    build: .
+    build:
+      context: .
+      dockerfile: Ej1_Dockerfile
     ports:
       - 80:3000

@@ -1,0 +1,21 @@
+# Workflow ejercicio 1 examen 2 AS
+
+name: ej1-workflow
+on: 
+  push: 
+    branches:
+      - "main" # Disparar unicamente al hacer push en la rama main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar entorno Node 18
+        uses: cloudposse/github-action-docker-compose-test-run@main
+        with:
+          file: docker-compose.yml
+          service: app
